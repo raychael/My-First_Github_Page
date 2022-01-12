@@ -1,0 +1,57 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    background-color: rgb(121, 32, 32);
+}
+header nav {
+    background-color: rgb(255, 196, 87);
+}
+.nav-button {
+    display: inline-block;
+    background-color: rgb(245, 138, 8);
+    color: black;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+.left {
+    float: left;
+}
+aside {
+    width: 29%;
+    height: 750px;
+    border-right: 1px solid black;
+}
+aside .photo {
+    padding: 40px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+aside .photo img {
+    width: 100%
+}
+aside .stats {
+    width: 100%
+}
+.content {
+    width: 70%;
+    height: 750px;
+}
+article {
+    padding: 40px;
+}
+article img {
+    float: left;
+    width: 25%;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.gallery {
+    padding: 40px;
+}
+.gallery h2 {
+    text-align: center;
+}
+.images img {
+    width: 30%;
+    margin: 0 1.5%;
+}
